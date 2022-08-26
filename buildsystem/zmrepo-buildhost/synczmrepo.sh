@@ -64,7 +64,7 @@ git_update () {
   else
     $MKDIR -p "$GIT_HOME"
     cd "$GIT_HOME"
-    $GIT clone https://github.com/ZoneMinder/zoneminder
+    $GIT clone https://github.com/netsocs/zmdockerfiles.git
     cd zoneminder
   fi
 
