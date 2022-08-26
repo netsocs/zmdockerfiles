@@ -1,7 +1,7 @@
 version: '3.1'
 services:
     zoneminder:
-        container_name: zoneminder
+        container_name: netsocs_zoneminder
         image: zoneminderhq/zoneminder:latest-ubuntu18.04
         restart: unless-stopped
         ports:
@@ -17,7 +17,7 @@ services:
             - mysql:/var/lib/mysql
             - logs:/var/log/zoneminder
 volumes:
-  events:
-  images:
-  mysql:
-  logs:
+    events:
+    images:
+    mysql:
+    logs:
